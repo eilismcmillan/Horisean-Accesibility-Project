@@ -1,30 +1,35 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6;/*Set background of webpage as off-white*/
 }
 
-.header {
+/* set header to blue bar with white font*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* set font size and display for the main heading*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+header h1 .seo {
+    color: #d9dcd6; /*set the letters 'seo' in main heading to a darker shade of white*/
 }
 
-.header div {
+/* set the navigation list to sit at the right of the header section with appropriate spacing between each item, and with smaller font than that of the main heading*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,49 +37,102 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+header nav ul {
+    list-style-type: none; /* removed dot points from  navigation list*/
 }
 
-.header div ul li {
-    display: inline-block;
+
+header nav ul li {
+    display: inline-block;/* set navigation list items to appear in the same line*/
     margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
+    color: #ffffff; /* set color of navigation list items as white*/
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+/* set the image size and spacing below, and ensured it did not stretch when browser size was altered*/
+.cover-image img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;   
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* set the elements in these section to sit inline with eachother i.e the paragraph and accompanying image*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+p {
+    font-size: 16px; /*set font size for all paragraph elements to size 16px*/
+}
+
+/* set each of the content sections to have a separate box, with spacing between such, all with blue backgrounds and white font */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* set the font size of headings to 36px with a gap between the headings themselves, and paragraphs below*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* set images in these sections to sit to the specified side*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* set the side panel to sit at right of webpage, with the font calibri, and background colour of blue*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,115 +144,55 @@ p {
     background-color: #2589bd;
 }
 
+/* set each of the sections in the aside panel to have white font, with centered headings and images*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* set the footer to sit in the centre of the bottom of the page */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

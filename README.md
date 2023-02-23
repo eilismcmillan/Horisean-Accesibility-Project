@@ -7,7 +7,7 @@ This project aims to increase the web accessibility for the Horiseon website. By
 n/a
 
 ## Usage
-The Horiseon website contains information regarding digitial marketing. To access the three primary topics covered within, you can use the navigation bar in the right of the header. These topics are 'Search Engine Optimisation', 'Online Reputation Management', and 'Social Media Marketing'. By clicking the topic you wish to view, you will be directed down to the relative section. 
+The Horiseon website contains information regarding digitial marketing and can be accessed using the url: https://eilismcmillan.github.io/Horiseon-Accessibility-Project/. To access the three primary topics covered within, you can use the navigation bar in the right of the header. These topics are 'Search Engine Optimisation', 'Online Reputation Management', and 'Social Media Marketing'. By clicking the topic you wish to view, you will be directed down to the relative section. 
 
 
 ![screenshot of webpage with arrows pointing towards navigation bar](https://github.com/eilismcmillan/Horiseon-Accessibility-Project/blob/main/Develop/assets/images/user%20screenshot%20%231.png?raw=true) 
